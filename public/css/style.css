@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: #333;
     font-family: Arial;
@@ -51,6 +57,10 @@ header a:active {
     flex-grow: 1;
 }
 
+.main-content p {
+    margin: 20px 0;
+}
+
 input {
     border: 1px solid #ccc;
     padding: 8px;
@@ -64,4 +74,22 @@ button {
     color: white;
     padding: 8px;
     border-radius: 10px;
+}
+
+.icons {
+    display: flex;
+    font-size: 200%;
+}
+
+.icons p {
+    margin: 0;
+}
+
+.icons__weather {
+    color: #555;
+    margin-right: 15px;
+}
+
+.icons__temperature {
+    color: rgb(173, 88, 8);
 }

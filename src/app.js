@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: 'If you need help, I want you to shove your fingers so far into your noobiness that you come out sideways. Then think twice about asking for help again.',
+        message: 'If you need help, please refer to https://pyxium.co/',
         title: 'Help',
         name: 'Hari Sood'
     });
